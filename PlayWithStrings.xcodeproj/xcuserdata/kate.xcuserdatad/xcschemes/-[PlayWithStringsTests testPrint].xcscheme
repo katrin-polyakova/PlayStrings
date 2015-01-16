@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44A6F8F91A67FA42003D83CC"
+               BuildableName = "PlayWithStringsTests.xctest"
+               BlueprintName = "PlayWithStringsTests"
+               ReferencedContainer = "container:PlayWithStrings.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44A6F8F91A67FA42003D83CC"
+               BuildableName = "PlayWithStringsTests.xctest"
+               BlueprintName = "PlayWithStringsTests"
+               ReferencedContainer = "container:PlayWithStrings.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "PlayWithStringsTests/testParseCorrectData">
+               </Test>
+               <Test
+                  Identifier = "PlayWithStringsTests/testPerformanceExample">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>
