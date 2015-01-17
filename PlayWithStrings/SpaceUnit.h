@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, SpaceUinitType) {TypeExperimental , TypeRealTime, TypeModified};
+typedef NS_ENUM(NSInteger, SpaceUinitType) {TypeExperimental, TypeRealTime, TypeModified};
 
 @interface SpaceUnit : NSObject
 

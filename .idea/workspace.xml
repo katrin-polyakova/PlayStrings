@@ -26,8 +26,8 @@
       <file leaf-file-name="PlayWithStringsTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PlayWithStringsTests/PlayWithStringsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3074485" vertical-offset="0" max-vertical-offset="1395">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state vertical-scroll-proportion="2.6386688" vertical-offset="0" max-vertical-offset="2250">
+              <caret line="111" column="65" selection-start-line="111" selection-start-column="62" selection-end-line="111" selection-end-column="62" />
               <folding>
                 <element signature="e#164#187#0" expanded="true" />
               </folding>
@@ -48,8 +48,8 @@
       <file leaf-file-name="SpaceUnit.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="795">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,7 +59,17 @@
         <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSObjCRuntime.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3724" max-vertical-offset="7710">
+              <caret line="267" column="8" selection-start-line="267" selection-start-column="8" selection-end-line="267" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -76,8 +86,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/PlayWithStrings/SpaceUnit.h" />
-        <option value="$PROJECT_DIR$/PlayWithStringsTests/PlayWithStringsTests.m" />
         <option value="$PROJECT_DIR$/PlayWithStrings/SpaceUnit.m" />
+        <option value="$PROJECT_DIR$/PlayWithStringsTests/PlayWithStringsTests.m" />
       </list>
     </option>
   </component>
@@ -134,7 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,6 +204,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +212,7 @@
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="PlayWithStrings,,,PlayWithStringsTests" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Little Zoo/Little Zoo.xcodeproj" />
   </component>
-  <component name="RunManager" selected="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData01]">
+  <component name="RunManager" selected="XCTest/Kiwi.-[PlayWithStringsTests testParseIncorrectData]">
     <configuration default="false" name="-[PlayWithStringsTests testParseCorrectData]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PlayWithStrings" TARGET_NAME="PlayWithStringsTests" CONFIG_NAME="Debug" SCHEME_NAME="-[PlayWithStringsTests testParseCorrectData]" TEST_CLASS="PlayWithStringsTests" TEST_METHOD="testParseCorrectData" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="1738028546">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
@@ -216,6 +226,18 @@
       <method />
     </configuration>
     <configuration default="false" name="-[PlayWithStringsTests testParseCorrectData01]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PlayWithStrings" TARGET_NAME="PlayWithStringsTests" CONFIG_NAME="Debug" SCHEME_NAME="-[PlayWithStringsTests testParseCorrectData01]" TEST_CLASS="PlayWithStringsTests" TEST_METHOD="testParseCorrectData01" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="1365253319">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[PlayWithStringsTests testParseCorrectData02]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PlayWithStrings" TARGET_NAME="PlayWithStringsTests" CONFIG_NAME="Debug" SCHEME_NAME="-[PlayWithStringsTests testParseCorrectData02]" TEST_CLASS="PlayWithStringsTests" TEST_METHOD="testParseCorrectData02" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="-473403407">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[PlayWithStringsTests testParseIncorrectData]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="PlayWithStrings" TARGET_NAME="PlayWithStringsTests" CONFIG_NAME="Debug" SCHEME_NAME="-[PlayWithStringsTests testParseIncorrectData]" TEST_CLASS="PlayWithStringsTests" TEST_METHOD="testParseIncorrectData" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="144250440">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
@@ -247,18 +269,22 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.PlayWithStrings" />
       <item index="1" class="java.lang.String" itemvalue="XCTest/Kiwi.PlayWithStringsTests" />
       <item index="2" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData]" />
       <item index="3" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testPrint]" />
       <item index="4" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData01]" />
+      <item index="5" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData02]" />
+      <item index="6" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseIncorrectData]" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData01]" />
-        <item index="1" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData]" />
-        <item index="2" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testPrint]" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseIncorrectData]" />
+        <item index="1" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testPrint]" />
+        <item index="2" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData02]" />
+        <item index="3" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData01]" />
+        <item index="4" class="java.lang.String" itemvalue="XCTest/Kiwi.-[PlayWithStringsTests testParseCorrectData]" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="946" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="946" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -288,14 +314,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24857469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24857469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -320,6 +346,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PlayWithStringsTests/PlayWithStringsTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1395">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="e#164#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayWithStrings/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="795">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="480">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PlayWithStringsTests/PlayWithStringsTests.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="900">
@@ -412,22 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="3724" max-vertical-offset="7710">
-          <caret line="267" column="8" selection-start-line="267" selection-start-column="8" selection-end-line="267" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PlayWithStringsTests/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="905">
@@ -440,6 +484,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6671949" vertical-offset="539" max-vertical-offset="1620">
           <caret line="64" column="70" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3724" max-vertical-offset="7710">
+          <caret line="267" column="8" selection-start-line="267" selection-start-column="8" selection-end-line="267" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -447,15 +498,23 @@
     <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayWithStrings/SpaceUnit.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="795">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlayWithStringsTests/PlayWithStringsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3074485" vertical-offset="0" max-vertical-offset="1395">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        <state vertical-scroll-proportion="2.6386688" vertical-offset="0" max-vertical-offset="2250">
+          <caret line="111" column="65" selection-start-line="111" selection-start-column="62" selection-end-line="111" selection-end-column="62" />
           <folding>
             <element signature="e#164#187#0" expanded="true" />
           </folding>

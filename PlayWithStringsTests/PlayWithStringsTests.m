@@ -38,8 +38,8 @@
     NSLog(@"%@", unit.specificationId);
     NSLog(@"%@", unit.groupNumber);
     NSLog(@"%@", unit.modelSpecifier);
-    NSLog(@"%@", unit.type);
-    NSLog(@"%@", unit.year);
+    NSLog(@"%d", unit.type);
+    NSLog(@"%lu", unit.year);
 
     XCTAssertTrue([@"18297236" isEqualToString: unit.id]);
     XCTAssertTrue([@"quest" isEqualToString: unit.name]);
@@ -49,6 +49,63 @@
     XCTAssertTrue([@"M-22" isEqualToString: unit.modelSpecifier]);
     XCTAssertTrue(unit.type==TypeExperimental);
 
+}
+
+- (void)testParseCorrectData02 {
+
+    NSString * string = @"liganova.b22/1024@L-01(Rt)2015#18297235";
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+
+    XCTAssertNotNil(unit, "Correct data %@ should be successful parsed", string);
+
+    NSLog(@"%@", unit.id);
+    NSLog(@"%@", unit.name);
+    NSLog(@"%@", unit.specificationId);
+    NSLog(@"%@", unit.groupNumber);
+    NSLog(@"%@", unit.modelSpecifier);
+    NSLog(@"%d", unit.type);
+    NSLog(@"%lu", unit.year);
+
+    XCTAssertTrue([@"18297235" isEqualToString: unit.id]);
+    XCTAssertTrue([@"liganova" isEqualToString: unit.name]);
+    XCTAssertTrue(unit.year==2015);
+    XCTAssertTrue([@"b22" isEqualToString: unit.specificationId]);
+    XCTAssertTrue([@(1024) isEqualToNumber: unit.groupNumber]);
+    XCTAssertTrue([@"L-01" isEqualToString: unit.modelSpecifier]);
+    XCTAssertTrue(unit.type==TypeRealTime);
+
+}
+
+- (void)testParseCorrectData03 {
+
+    NSString * string = @"east.i504/3@ML-26(M)2014#18297232";
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+
+    XCTAssertNotNil(unit, "Correct data %@ should be successful parsed", string);
+
+    NSLog(@"%@", unit.id);
+    NSLog(@"%@", unit.name);
+    NSLog(@"%@", unit.specificationId);
+    NSLog(@"%@", unit.groupNumber);
+    NSLog(@"%@", unit.modelSpecifier);
+    NSLog(@"%d", unit.type);
+    NSLog(@"%lu", unit.year);
+
+    XCTAssertTrue([@"18297232" isEqualToString: unit.id]);
+    XCTAssertTrue([@"east" isEqualToString: unit.name]);
+    XCTAssertTrue(unit.year==2014);
+    XCTAssertTrue([@"i504" isEqualToString: unit.specificationId]);
+    XCTAssertTrue([@(3) isEqualToNumber: unit.groupNumber]);
+    XCTAssertTrue([@"ML-26" isEqualToString: unit.modelSpecifier]);
+    XCTAssertTrue(unit.type==TypeModified);
+
+}
+
+- (void)testParseIncorrectData {
+    NSString * string = @"quest.i502/17@M-22(X)2012#";
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+
+    XCTAssertNil(unit, "Correct data %@ shouldn't be parsed", string);
 }
 
 -(void) testPrint {
