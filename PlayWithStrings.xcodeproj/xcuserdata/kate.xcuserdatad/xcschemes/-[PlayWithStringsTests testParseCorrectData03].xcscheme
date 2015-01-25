@@ -29,7 +29,19 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "PlayWithStringsTests/testParseCorrectData01">
+               </Test>
+               <Test
+                  Identifier = "PlayWithStringsTests/testParseCorrectData02">
+               </Test>
+               <Test
+                  Identifier = "PlayWithStringsTests/testParseIncorrectData">
+               </Test>
+               <Test
                   Identifier = "PlayWithStringsTests/testPerformanceExample">
+               </Test>
+               <Test
+                  Identifier = "PlayWithStringsTests/testPrint">
                </Test>
             </SkippedTests>
          </TestableReference>

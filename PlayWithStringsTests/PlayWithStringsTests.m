@@ -29,7 +29,7 @@
 - (void)testParseCorrectData01 {
 
     NSString * string = @"quest.i502/17@M-22(X)2012#18297236";
-    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueId: string];
 
     XCTAssertNotNil(unit, "Correct data %@ should be successful parsed", string);
 
@@ -54,7 +54,7 @@
 - (void)testParseCorrectData02 {
 
     NSString * string = @"liganova.b22/1024@L-01(Rt)2015#18297235";
-    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueId: string];
 
     XCTAssertNotNil(unit, "Correct data %@ should be successful parsed", string);
 
@@ -79,7 +79,7 @@
 - (void)testParseCorrectData03 {
 
     NSString * string = @"east.i504/3@ML-26(M)2014#18297232";
-    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueId: string];
 
     XCTAssertNotNil(unit, "Correct data %@ should be successful parsed", string);
 
@@ -103,9 +103,17 @@
 
 - (void)testParseIncorrectData {
     NSString * string = @"quest.i502/17@M-22(X)2012#";
-    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueID: string];
+    SpaceUnit* unit = [[SpaceUnit alloc] initWithUniqueId: string];
 
-    XCTAssertNil(unit, "Correct data %@ shouldn't be parsed", string);
+    NSLog(@"%@", unit.id);
+    NSLog(@"%@", unit.name);
+    NSLog(@"%@", unit.specificationId);
+    NSLog(@"%@", unit.groupNumber);
+    NSLog(@"%@", unit.modelSpecifier);
+    NSLog(@"%d", unit.type);
+    NSLog(@"%lu", unit.year);
+
+    XCTAssertNil(unit, "Incorrect data %@ shouldn't be parsed", string);
 }
 
 -(void) testPrint {

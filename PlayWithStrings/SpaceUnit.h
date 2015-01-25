@@ -18,10 +18,10 @@ typedef NS_ENUM(NSInteger, SpaceUinitType) {TypeExperimental, TypeRealTime, Type
 @property (nonatomic) NSUInteger year;
 @property (nonatomic, strong) NSString* uniqueID;
 
-- (instancetype)initWithUniqueID:(NSString *)uniqueID;
-+ (instancetype)unitWithUniqueID:(NSString *)uniqueID;
+//- (instancetype)initWithUniqueId:(NSString *)uniqueID;
+//+ (instancetype)unitWithUniqueId:(NSString *)uniqueID;
 
-
+- (id)initWithUniqueId:(NSString *)string;
 
 
 @end
